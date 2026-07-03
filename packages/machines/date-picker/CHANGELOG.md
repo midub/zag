@@ -1,5 +1,25 @@
 # @zag-js/date-picker
 
+## 1.42.1
+
+### Patch Changes
+
+- [#3200](https://github.com/chakra-ui/zag/pull/3200)
+  [`913e0f4`](https://github.com/chakra-ui/zag/commit/913e0f4a68171f527ed43ad1d98418accba8a711) Thanks
+  [@olaf-k](https://github.com/olaf-k)! - Fix date picker behavior for disabled and read-only states, controlled open
+  state, min view defaults, and month/year multi-select limits.
+
+- Updated dependencies []:
+  - @zag-js/anatomy@1.42.1
+  - @zag-js/core@1.42.1
+  - @zag-js/types@1.42.1
+  - @zag-js/utils@1.42.1
+  - @zag-js/date-utils@1.42.1
+  - @zag-js/dismissable@1.42.1
+  - @zag-js/dom-query@1.42.1
+  - @zag-js/live-region@1.42.1
+  - @zag-js/popper@1.42.1
+
 ## 1.42.0
 
 ### Patch Changes
