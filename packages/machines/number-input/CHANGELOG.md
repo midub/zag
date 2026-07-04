@@ -1,5 +1,16 @@
 # @zag-js/number-input
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Minor Changes
@@ -18,6 +29,7 @@
   - **`largeStep` / `smallStep`** — Explicit step sizes for Shift (default `step * 10`) and Alt/Option (default
     `step * 0.1`) modifier keys. Alt replaces Ctrl for fine control, matching design tool conventions.
   - **`snapOnStep`** — Snap values to step multiples when scrubbing or using keyboard.
+
 ## 1.42.0
 
 ### Minor Changes

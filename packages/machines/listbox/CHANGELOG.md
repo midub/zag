@@ -1,5 +1,18 @@
 # @zag-js/listbox
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- Updated dependencies [[`1b6233d`](https://github.com/chakra-ui/zag/commit/1b6233d09bd8f0076f2b282bd8f5a58d8c65260b)]:
+  - @zag-js/collection@2.0.0-next.1
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+  - @zag-js/focus-visible@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Major Changes
@@ -39,6 +52,7 @@
   - `aria-controls` on the input now points to the list id, not the content id.
   - `scrollIntoView` retargets to the list element. Virtualized listboxes should attach the scroll ref to the list.
   - New `list` part added to anatomy. New `getListId` / `getListEl` DOM helpers.
+
 ## 1.42.0
 
 ### Patch Changes

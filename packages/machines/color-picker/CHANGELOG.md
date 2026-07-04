@@ -1,5 +1,36 @@
 # @zag-js/color-picker
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- [#3167](https://github.com/chakra-ui/zag/pull/3167)
+  [`8148d4d`](https://github.com/chakra-ui/zag/commit/8148d4dc44c1d3638869c2fdcf4d9e5fba14decd) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - Fix positioner appearing in the top-left corner on first
+  open (most visible in the Svelte adapter). The positioner now stays hidden off-screen via a CSS variable fallback in
+  `transform` instead of a `positioned`-gated `opacity`. This keeps the framework-managed style static, so reactive
+  re-renders no longer clobber the `--x`/`--y` variables popper sets.
+
+  As a result, the internal `positioned` context flag is removed from positioned machines (popover, menu, select, etc.).
+
+  Also fixes `cascade-select` positioning: it now sets the initial placement before measuring and defers the first
+  placement computation (matching the other components), so it positions correctly on open — including `defaultOpen`.
+
+- [#3198](https://github.com/chakra-ui/zag/pull/3198)
+  [`e4e0b2d`](https://github.com/chakra-ui/zag/commit/e4e0b2d04a9e6d909db36d8ed0c9ad54790190a6) Thanks
+  [@greymoth-jp](https://github.com/greymoth-jp)! - Fix the color channel input committing a partial value when `Enter`
+  is pressed to confirm an IME composition.
+
+- Updated dependencies [[`8148d4d`](https://github.com/chakra-ui/zag/commit/8148d4dc44c1d3638869c2fdcf4d9e5fba14decd)]:
+  - @zag-js/popper@2.0.0-next.1
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/color-utils@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dismissable@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Minor Changes
@@ -13,6 +44,7 @@
   as `getAreaProps` / `getGamutOverlayProps`. Adds `isInSrgbGamut` and optional `pixelRatio` on overlay props for
   DPR-aware boundary sampling. See
   [OSS-2393](https://linear.app/chakra/issue/OSS-2393/color-picker-wide-gamut-color-support-oklaboklch-srgb-gamut-overlay).
+
 ## 1.42.0
 
 ### Patch Changes

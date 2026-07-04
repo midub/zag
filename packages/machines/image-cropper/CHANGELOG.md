@@ -1,5 +1,17 @@
 # @zag-js/image-cropper
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+  - @zag-js/rect-utils@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Minor Changes
@@ -27,6 +39,7 @@
   - Floating panel: `ResizeTriggerProps.axis` → `.placement`, `data-axis` → `data-placement`, `ResizeTriggerAxis`
     removed (use `HandlePosition`), `resizeTriggerAxes` → `resizeTriggerPlacements`
   - Image cropper: `HandleProps.position` → `.placement`, `data-position` → `data-placement`, `handles` → `placements`
+
 ## 1.42.0
 
 ### Patch Changes

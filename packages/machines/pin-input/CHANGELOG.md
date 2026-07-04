@@ -1,5 +1,16 @@
 # @zag-js/pin-input
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Major Changes
@@ -22,6 +33,7 @@
   - **Simpler internals** — no DOM queries or mutation observers to detect input elements
   - **SSR-friendly** — count is available before hydration
   - **Consistent** — aligns with how carousel, rating, and pagination handle counts
+
 ## 1.42.0
 
 ### Patch Changes

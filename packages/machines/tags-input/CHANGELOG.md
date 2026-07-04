@@ -1,5 +1,19 @@
 # @zag-js/tags-input
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/auto-resize@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+  - @zag-js/interact-outside@2.0.0-next.1
+  - @zag-js/live-region@2.0.0-next.1
+
 ## 2.0.0-next.0
 
 ### Major Changes
@@ -22,6 +36,7 @@
   - **Simpler default** — most usages only need add/remove, not inline rename
   - **Less surprise** — double-click to edit is a power-user feature that should be opted into
   - **Matches peers** — aligns with how other tag input libraries behave out of the box
+
 ## 1.42.0
 
 ### Patch Changes

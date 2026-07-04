@@ -1,6 +1,23 @@
 # @zag-js/slider
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- [#3167](https://github.com/chakra-ui/zag/pull/3167)
+  [`b274a15`](https://github.com/chakra-ui/zag/commit/b274a15745efcbaebba493c1e94988562c7c1b0b) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - - Fixed issue where `origin: "center"` assumed the
+  neutral value was always the midpoint of `min`/`max`
+  - `origin` now also accepts a `number`, so the track can fill from that specific value instead
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.1
+  - @zag-js/core@2.0.0-next.1
+  - @zag-js/types@2.0.0-next.1
+  - @zag-js/utils@2.0.0-next.1
+  - @zag-js/dom-query@2.0.0-next.1
+
 ## 2.0.0-next.0
+
 ## 1.42.0
 
 ### Minor Changes
